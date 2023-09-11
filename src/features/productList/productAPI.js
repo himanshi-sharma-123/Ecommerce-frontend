@@ -7,26 +7,6 @@ export function fetchAllProducts() {
   });
 }
 
-// export async function fetchAllProducts() {
-//   try {
-//     const response = await fetch("http://localhost:8080/products");
-
-//     if (!response.ok) {
-//       // Handle non-2xx HTTP response status codes here, e.g., throw an error.
-//       throw new Error(
-//         `HTTP Error: ${response.status} - ${response.statusText}`
-//       );
-//     }
-
-//     const data = await response.json();
-//     return { data };
-//   } catch (error) {
-//     // Handle network errors or other exceptions here.
-//     console.error("Error fetching products:", error);
-//     throw error; // Propagate the error further if needed.
-//   }
-// }
-
 export function fetchProductsByFilters(filter, sort, pagination) {
   // filter = {"category":["smartphone","laptops"]}
   //sort = {_sort:"price",_order:"desc"}
@@ -65,6 +45,44 @@ export function fetchProductsByFilters(filter, sort, pagination) {
     // resolve({ data });
   });
 }
+
+export function fetchCategories() {
+  return new Promise(async (resolve) => {
+    //TODO: we will not hard-code server url here//
+    const response = await fetch("http://localhost:8080/categories");
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+export function fetchBrands() {
+  return new Promise(async (resolve) => {
+    //TODO: we will not hard-code server url here//
+    const response = await fetch("http://localhost:8080/brands");
+    const data = await response.json();
+    resolve({ data });
+  });
+}
+
+// export async function fetchAllProducts() {
+//   try {
+//     const response = await fetch("http://localhost:8080/products");
+
+//     if (!response.ok) {
+//       // Handle non-2xx HTTP response status codes here, e.g., throw an error.
+//       throw new Error(
+//         `HTTP Error: ${response.status} - ${response.statusText}`
+//       );
+//     }
+
+//     const data = await response.json();
+//     return { data };
+//   } catch (error) {
+//     // Handle network errors or other exceptions here.
+//     console.error("Error fetching products:", error);
+//     throw error; // Propagate the error further if needed.
+//   }
+// }
 
 // export function fetchAllProducts() {
 //   return new Promise(async (resolve) => {
