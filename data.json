@@ -2356,40 +2356,43 @@
     {
       "email": "himanshish456@gmail.com",
       "password": "jetABC123",
+      "addresses": [
+        {
+          "name": "xyz",
+          "email": "hello@gmail.com",
+          "phone": "8287541443",
+          "street": "abc",
+          "city": "ggg",
+          "state": "ggg4",
+          "pinCode": "444"
+        },
+        {
+          "name": "Himanshi Sharma",
+          "email": "hello@gmail.com",
+          "phone": "8287541443",
+          "street": "xyz",
+          "city": "ddd",
+          "state": "ddd",
+          "pinCode": "111"
+        }
+      ],
       "id": 1
     },
     {
       "email": "test@gmail.com",
       "password": "testABC123",
+      "addresses": [],
       "id": 2
     },
     {
       "email": "h@gmail.com",
       "password": "Himanshi@123",
+      "addresses": [],
       "id": 3
     }
   ],
   "cart": [
     {
-      "id": 3,
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
-      ],
-      "deleted": true,
-      "quantity": 1,
-      "user": 1
-    },
-    {
-      "id": 4,
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
       "price": 300,
@@ -2406,7 +2409,125 @@
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
       ],
       "quantity": 1,
-      "user": 1
+      "user": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 300,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [
+          {
+            "name": "xyz",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "abc",
+            "city": "ggg",
+            "state": "ggg4",
+            "pinCode": "444"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "xyz",
+        "email": "hello@gmail.com",
+        "phone": "8287541443",
+        "street": "abc",
+        "city": "ggg",
+        "state": "ggg4",
+        "pinCode": "444"
+      },
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 300,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [
+          {
+            "name": "xyz",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "abc",
+            "city": "ggg",
+            "state": "ggg4",
+            "pinCode": "444"
+          },
+          {
+            "name": "Himanshi Sharma",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "xyz",
+            "city": "ddd",
+            "state": "ddd",
+            "pinCode": "111"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "Himanshi Sharma",
+        "email": "hello@gmail.com",
+        "phone": "8287541443",
+        "street": "xyz",
+        "city": "ddd",
+        "state": "ddd",
+        "pinCode": "111"
+      },
+      "id": 2
     }
   ]
 }
