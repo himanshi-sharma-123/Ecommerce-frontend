@@ -2387,8 +2387,34 @@
     {
       "email": "h@gmail.com",
       "password": "Himanshi@123",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "HS",
+          "email": "h@gmail.com",
+          "phone": "+918287541443",
+          "street": "yyy",
+          "city": "bbb",
+          "state": "eee",
+          "pinCode": "222"
+        }
+      ],
       "id": 3
+    },
+    {
+      "email": "mom@gmail.com",
+      "password": "Mom@1234",
+      "addresses": [
+        {
+          "name": "Mom",
+          "email": "mom@gmail.com",
+          "phone": "33333",
+          "street": "sss",
+          "city": "ccc",
+          "state": "ppp",
+          "pinCode": "6666"
+        }
+      ],
+      "id": 4
     }
   ],
   "cart": [
@@ -2409,8 +2435,29 @@
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
       ],
       "quantity": 1,
-      "user": 1,
-      "id": 1
+      "user": 3,
+      "id": 2
+    },
+    {
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/9/1.jpg",
+        "https://i.dummyjson.com/data/products/9/2.png",
+        "https://i.dummyjson.com/data/products/9/3.png",
+        "https://i.dummyjson.com/data/products/9/4.jpg",
+        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+      ],
+      "quantity": 1,
+      "user": 3,
+      "id": 3
     }
   ],
   "orders": [
@@ -2528,6 +2575,582 @@
         "pinCode": "111"
       },
       "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 300,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [
+          {
+            "name": "xyz",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "abc",
+            "city": "ggg",
+            "state": "ggg4",
+            "pinCode": "444"
+          },
+          {
+            "name": "Himanshi Sharma",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "xyz",
+            "city": "ddd",
+            "state": "ddd",
+            "pinCode": "111"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectAddress": {
+        "name": "xyz",
+        "email": "hello@gmail.com",
+        "phone": "8287541443",
+        "street": "abc",
+        "city": "ggg",
+        "state": "ggg4",
+        "pinCode": "444"
+      },
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 2
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1399,
+      "totalItems": 2,
+      "user": {
+        "email": "h@gmail.com",
+        "password": "Himanshi@123",
+        "addresses": [
+          {
+            "name": "HS",
+            "email": "h@gmail.com",
+            "phone": "+918287541443",
+            "street": "yyy",
+            "city": "bbb",
+            "state": "eee",
+            "pinCode": "222"
+          }
+        ],
+        "id": 3
+      },
+      "paymentMethod": "cash",
+      "selectAddress": {
+        "name": "HS",
+        "email": "h@gmail.com",
+        "phone": "+918287541443",
+        "street": "yyy",
+        "city": "bbb",
+        "state": "eee",
+        "pinCode": "222"
+      },
+      "status": "pending",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 2
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1399,
+      "totalItems": 2,
+      "user": {
+        "email": "h@gmail.com",
+        "password": "Himanshi@123",
+        "addresses": [
+          {
+            "name": "HS",
+            "email": "h@gmail.com",
+            "phone": "+918287541443",
+            "street": "yyy",
+            "city": "bbb",
+            "state": "eee",
+            "pinCode": "222"
+          }
+        ],
+        "id": 3
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "HS",
+        "email": "h@gmail.com",
+        "phone": "+918287541443",
+        "street": "yyy",
+        "city": "bbb",
+        "state": "eee",
+        "pinCode": "222"
+      },
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 2
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 3,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1399,
+      "totalItems": 2,
+      "user": {
+        "email": "h@gmail.com",
+        "password": "Himanshi@123",
+        "addresses": [
+          {
+            "name": "HS",
+            "email": "h@gmail.com",
+            "phone": "+918287541443",
+            "street": "yyy",
+            "city": "bbb",
+            "state": "eee",
+            "pinCode": "222"
+          }
+        ],
+        "id": 3
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "HS",
+        "email": "h@gmail.com",
+        "phone": "+918287541443",
+        "street": "yyy",
+        "city": "bbb",
+        "state": "eee",
+        "pinCode": "222"
+      },
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        },
+        {
+          "title": "Women Sweaters Wool",
+          "description": "2021 Custom Winter Fall Zebra Knit Crop Top Women Sweaters Wool Mohair Cos Customize Crew Neck Women' S Crop Top Sweater",
+          "price": 600,
+          "discountPercentage": 17.2,
+          "rating": 4.55,
+          "stock": 55,
+          "brand": "Top Sweater",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/39/1.jpg",
+            "https://i.dummyjson.com/data/products/39/2.jpg",
+            "https://i.dummyjson.com/data/products/39/3.jpg",
+            "https://i.dummyjson.com/data/products/39/4.jpg",
+            "https://i.dummyjson.com/data/products/39/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 5
+        }
+      ],
+      "totalAmount": 613,
+      "totalItems": 2,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "Mom",
+            "email": "mom@gmail.com",
+            "phone": "33333",
+            "street": "sss",
+            "city": "ccc",
+            "state": "ppp",
+            "pinCode": "6666"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "Mom",
+        "email": "mom@gmail.com",
+        "phone": "33333",
+        "street": "sss",
+        "city": "ccc",
+        "state": "ppp",
+        "pinCode": "6666"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        },
+        {
+          "title": "Women Sweaters Wool",
+          "description": "2021 Custom Winter Fall Zebra Knit Crop Top Women Sweaters Wool Mohair Cos Customize Crew Neck Women' S Crop Top Sweater",
+          "price": 600,
+          "discountPercentage": 17.2,
+          "rating": 4.55,
+          "stock": 55,
+          "brand": "Top Sweater",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/39/1.jpg",
+            "https://i.dummyjson.com/data/products/39/2.jpg",
+            "https://i.dummyjson.com/data/products/39/3.jpg",
+            "https://i.dummyjson.com/data/products/39/4.jpg",
+            "https://i.dummyjson.com/data/products/39/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 5
+        }
+      ],
+      "totalAmount": 613,
+      "totalItems": 2,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "Mom",
+            "email": "mom@gmail.com",
+            "phone": "33333",
+            "street": "sss",
+            "city": "ccc",
+            "state": "ppp",
+            "pinCode": "6666"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "Mom",
+        "email": "mom@gmail.com",
+        "phone": "33333",
+        "street": "sss",
+        "city": "ccc",
+        "state": "ppp",
+        "pinCode": "6666"
+      },
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        },
+        {
+          "title": "Women Sweaters Wool",
+          "description": "2021 Custom Winter Fall Zebra Knit Crop Top Women Sweaters Wool Mohair Cos Customize Crew Neck Women' S Crop Top Sweater",
+          "price": 600,
+          "discountPercentage": 17.2,
+          "rating": 4.55,
+          "stock": 55,
+          "brand": "Top Sweater",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/39/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/39/1.jpg",
+            "https://i.dummyjson.com/data/products/39/2.jpg",
+            "https://i.dummyjson.com/data/products/39/3.jpg",
+            "https://i.dummyjson.com/data/products/39/4.jpg",
+            "https://i.dummyjson.com/data/products/39/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 5
+        }
+      ],
+      "totalAmount": 613,
+      "totalItems": 2,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "Mom",
+            "email": "mom@gmail.com",
+            "phone": "33333",
+            "street": "sss",
+            "city": "ccc",
+            "state": "ppp",
+            "pinCode": "6666"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "cash",
+      "selectAddress": {
+        "name": "Mom",
+        "email": "mom@gmail.com",
+        "phone": "33333",
+        "street": "sss",
+        "city": "ccc",
+        "state": "ppp",
+        "pinCode": "6666"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 300,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [
+          {
+            "name": "xyz",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "abc",
+            "city": "ggg",
+            "state": "ggg4",
+            "pinCode": "444"
+          },
+          {
+            "name": "Himanshi Sharma",
+            "email": "hello@gmail.com",
+            "phone": "8287541443",
+            "street": "xyz",
+            "city": "ddd",
+            "state": "ddd",
+            "pinCode": "111"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "Himanshi Sharma",
+        "email": "hello@gmail.com",
+        "phone": "8287541443",
+        "street": "xyz",
+        "city": "ddd",
+        "state": "ddd",
+        "pinCode": "111"
+      },
+      "status": "pending",
+      "id": 10
     }
   ]
 }
