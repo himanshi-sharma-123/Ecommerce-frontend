@@ -7,7 +7,7 @@ import SignupPage from "./pages/SignupPage";
 import CartPage from "./pages/CartPage";
 import Checkout from "./pages/Checkout";
 import ProductDetailPage from "./pages/ProductDetailPage";
-import UserOrders from "./features/user/components/UserOrders";
+import UserProfile from "./features/user/components/UserProfile";
 
 import {
   createBrowserRouter,
@@ -22,6 +22,7 @@ import { selectLoggedInUser } from "./features/auth/authSlice";
 import PageNotFound from "./pages/404";
 import OrderSuccessPage from "./pages/OrderSuccessPage";
 import UserOrdersPage from "./pages/UserOrdersPage";
+import UserProfilePage from "./pages/UserProfilePage";
 
 const router = createBrowserRouter([
   {
@@ -71,6 +72,11 @@ const router = createBrowserRouter([
   {
     path: "/orders",
     element: <UserOrdersPage></UserOrdersPage>,
+    // we will add page later , right now using component directly
+  },
+  {
+    path: "/profile",
+    element: <UserProfilePage></UserProfilePage>,
     // we will add page later , right now using component directly
   },
 
