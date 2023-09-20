@@ -2356,26 +2356,7 @@
     {
       "email": "himanshish456@gmail.com",
       "password": "jetABC123",
-      "addresses": [
-        {
-          "name": "xyz",
-          "email": "hello@gmail.com",
-          "phone": "8287541443",
-          "street": "abc",
-          "city": "ggg",
-          "state": "ggg4",
-          "pinCode": "444"
-        },
-        {
-          "name": "Himanshi Sharma",
-          "email": "hello@gmail.com",
-          "phone": "8287541443",
-          "street": "xyz",
-          "city": "ddd",
-          "state": "ddd",
-          "pinCode": "111"
-        }
-      ],
+      "addresses": [],
       "id": 1
     },
     {
@@ -2405,13 +2386,40 @@
       "password": "Mom@1234",
       "addresses": [
         {
-          "name": "Mom",
+          "name": "AS",
           "email": "mom@gmail.com",
-          "phone": "33333",
-          "street": "sss",
-          "city": "ccc",
-          "state": "ppp",
-          "pinCode": "6666"
+          "phone": "12345",
+          "street": "main 11",
+          "city": "delhi",
+          "state": "delhi",
+          "pinCode": "111111"
+        },
+        {
+          "name": "ASPS",
+          "email": "mom@gmail.com",
+          "phone": "22222222",
+          "street": "Budh Vihar",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "2222"
+        },
+        {
+          "name": "sdd",
+          "email": "fdf",
+          "phone": "ffdff",
+          "street": "fff",
+          "city": "dddd",
+          "state": "dddd",
+          "pinCode": "dddd"
+        },
+        {
+          "name": "Parul Sharma",
+          "email": "mom@gmail.com",
+          "city": "New Delhi",
+          "state": "Delhi",
+          "pinCode": "86",
+          "phone": "8826",
+          "street": "V-1"
         }
       ],
       "id": 4
@@ -3519,6 +3527,234 @@
       },
       "status": "pending",
       "id": 16
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        }
+      ],
+      "totalAmount": 1499,
+      "totalItems": 1,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": null,
+      "status": "pending",
+      "id": 17
+    },
+    {
+      "items": [
+        {
+          "title": "American Vintage Wood Pendant Light",
+          "description": "American Vintage Wood Pendant Light Farmhouse Antique Hanging Lamp Lampara Colgante",
+          "price": 46,
+          "discountPercentage": 8.84,
+          "rating": 4.32,
+          "stock": 138,
+          "brand": "Ifei Home",
+          "category": "lighting",
+          "thumbnail": "https://i.dummyjson.com/data/products/99/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/99/1.jpg",
+            "https://i.dummyjson.com/data/products/99/2.jpg",
+            "https://i.dummyjson.com/data/products/99/3.jpg",
+            "https://i.dummyjson.com/data/products/99/4.jpg",
+            "https://i.dummyjson.com/data/products/99/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        }
+      ],
+      "totalAmount": 46,
+      "totalItems": 1,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "AS",
+            "email": "mom@gmail.com",
+            "phone": "12345",
+            "street": "main 11",
+            "city": "delhi",
+            "state": "delhi",
+            "pinCode": "111111"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": null,
+      "status": "pending",
+      "id": 18
+    },
+    {
+      "items": [
+        {
+          "title": "Huawei P30",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 499,
+          "discountPercentage": 10.58,
+          "rating": 4.09,
+          "stock": 32,
+          "brand": "Huawei",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        }
+      ],
+      "totalAmount": 499,
+      "totalItems": 1,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "AS",
+            "email": "mom@gmail.com",
+            "phone": "12345",
+            "street": "main 11",
+            "city": "delhi",
+            "state": "delhi",
+            "pinCode": "111111"
+          },
+          {
+            "name": "AS",
+            "email": "mom@gmail.com",
+            "phone": "22222222",
+            "street": "Budh Vihar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "2222"
+          },
+          {
+            "name": "sdd",
+            "email": "fdf",
+            "phone": "ffdff",
+            "street": "fff",
+            "city": "dddd",
+            "state": "dddd",
+            "pinCode": "dddd"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "sdd",
+        "email": "fdf",
+        "phone": "ffdff",
+        "street": "fff",
+        "city": "dddd",
+        "state": "dddd",
+        "pinCode": "dddd"
+      },
+      "status": "pending",
+      "id": 19
+    },
+    {
+      "items": [
+        {
+          "title": "Tree Oil 30ml",
+          "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+          "price": 12,
+          "discountPercentage": 4.09,
+          "rating": 4.52,
+          "stock": 78,
+          "brand": "Hemani Tea",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/17/1.jpg",
+            "https://i.dummyjson.com/data/products/17/2.jpg",
+            "https://i.dummyjson.com/data/products/17/3.jpg",
+            "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        }
+      ],
+      "totalAmount": 12,
+      "totalItems": 1,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "AS",
+            "email": "mom@gmail.com",
+            "phone": "12345",
+            "street": "main 11",
+            "city": "delhi",
+            "state": "delhi",
+            "pinCode": "111111"
+          },
+          {
+            "name": "ASPS",
+            "email": "mom@gmail.com",
+            "phone": "22222222",
+            "street": "Budh Vihar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "2222"
+          },
+          {
+            "name": "sdd",
+            "email": "fdf",
+            "phone": "ffdff",
+            "street": "fff",
+            "city": "dddd",
+            "state": "dddd",
+            "pinCode": "dddd"
+          },
+          {
+            "name": "Parul Sharma",
+            "email": "mom@gmail.com",
+            "city": "New Delhi",
+            "state": "Delhi",
+            "pinCode": "86",
+            "phone": "8826",
+            "street": "V-1"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "cash",
+      "selectAddress": null,
+      "status": "pending",
+      "id": 20
     }
   ]
 }
