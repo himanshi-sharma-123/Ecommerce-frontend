@@ -21,6 +21,7 @@ import {
   createOrderAsync,
   selectCurrentOrder,
 } from "../features/order/orderSlice";
+import { selectUserInfo } from "../features/user/userSlice";
 
 const products = [
   {
@@ -55,6 +56,8 @@ const Checkout = () => {
 
   const [open, setOpen] = useState(true);
   const items = useSelector(selectItems);
+  const user = useSelector(selectUserInfo);
+
   const currentOrder = useSelector(selectCurrentOrder);
 
   const totalAmount = items.reduce(
@@ -103,8 +106,6 @@ const Checkout = () => {
     reset,
     formState: { errors },
   } = useForm();
-
-  const user = useSelector(selectLoggedInUser);
 
   return (
     <>
