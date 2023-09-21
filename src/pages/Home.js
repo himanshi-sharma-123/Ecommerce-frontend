@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavBar from "../features/navbar/Navbar";
 // import ProductList from "../features/productList/ProductList";
 import ProductList from "../features/productList/components/ProductList";
@@ -7,6 +8,7 @@ function Home() {
       <NavBar>
         <ProductList></ProductList>
       </NavBar>
+      {/* <Link to="/admin">Admin</Link> */}
     </div>
   );
 }
