@@ -2793,7 +2793,7 @@
         "state": "eee",
         "pinCode": "222"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 4
     },
     {
@@ -2868,7 +2868,7 @@
         "state": "eee",
         "pinCode": "222"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": 5
     },
     {
@@ -3168,7 +3168,7 @@
         "state": "ppp",
         "pinCode": "6666"
       },
-      "status": "pending",
+      "status": "dispatched",
       "id": 9
     },
     {
