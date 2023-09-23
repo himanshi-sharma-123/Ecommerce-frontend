@@ -2393,7 +2393,17 @@
     {
       "email": "himanshish456@gmail.com",
       "password": "jetABC123",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "Himanshi Sharma",
+          "email": "himanshish456@gmail.com",
+          "phone": "8287541443",
+          "street": "Budh Vihar",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "110086"
+        }
+      ],
       "id": 1
     },
     {
@@ -2466,6 +2476,15 @@
           "city": "d",
           "state": "d",
           "pinCode": "4"
+        },
+        {
+          "name": "ABS",
+          "email": "mom@gmail.com",
+          "phone": "12345",
+          "street": "Budh Vihar",
+          "city": "S",
+          "state": "S",
+          "pinCode": "S"
         }
       ],
       "id": 4
@@ -2521,46 +2540,24 @@
       "id": 3
     },
     {
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 1111,
-      "discountPercentage": 17.94,
-      "rating": 0,
-      "stock": 34,
-      "brand": "Apple",
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
       "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
-        "https://i.dummyjson.com/data/products/2/3.jpg",
-        "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+        "https://i.dummyjson.com/data/products/5/1.jpg",
+        "https://i.dummyjson.com/data/products/5/2.jpg",
+        "https://i.dummyjson.com/data/products/5/3.jpg"
       ],
-      "deleted": true,
+      "productId": 5,
       "quantity": 1,
       "user": 4,
       "id": 4
-    },
-    {
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 300,
-      "discountPercentage": 17.91,
-      "rating": 0,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/4/1.jpg",
-        "https://i.dummyjson.com/data/products/4/2.jpg",
-        "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-      ],
-      "productId": 4,
-      "quantity": 1,
-      "user": 4,
-      "id": 5
     }
   ],
   "orders": [
@@ -3850,6 +3847,234 @@
       "selectAddress": null,
       "status": "pending",
       "id": 20
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "deleted": true,
+          "quantity": 1,
+          "user": 4,
+          "id": 4
+        },
+        {
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "productId": 4,
+          "quantity": 1,
+          "user": 4,
+          "id": 5
+        },
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "productId": 9,
+          "quantity": 1,
+          "user": 4,
+          "id": 6
+        }
+      ],
+      "totalAmount": 2510,
+      "totalItems": 3,
+      "user": {
+        "email": "mom@gmail.com",
+        "password": "Mom@1234",
+        "addresses": [
+          {
+            "name": "AS",
+            "email": "mom@gmail.com",
+            "phone": "12345",
+            "street": "main 11",
+            "city": "delhi",
+            "state": "delhi",
+            "pinCode": "111111"
+          },
+          {
+            "name": "ASPS",
+            "email": "mom@gmail.com",
+            "phone": "22222222",
+            "street": "Budh Vihar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "2222"
+          },
+          {
+            "name": "sdd",
+            "email": "fdf",
+            "phone": "ffdff",
+            "street": "fff",
+            "city": "dddd",
+            "state": "dddd",
+            "pinCode": "dddd"
+          },
+          {
+            "name": "Parul Sharma",
+            "email": "mom@gmail.com",
+            "city": "New Delhi",
+            "state": "Delhi",
+            "pinCode": "86",
+            "phone": "8826",
+            "street": "V-1"
+          },
+          {
+            "name": "Parul",
+            "email": "mom@gmail.com",
+            "phone": "12345",
+            "street": "Budh Vihar",
+            "city": "d",
+            "state": "d",
+            "pinCode": "4"
+          }
+        ],
+        "id": 4
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "sdd",
+        "email": "fdf",
+        "phone": "ffdff",
+        "street": "fff",
+        "city": "dddd",
+        "state": "dddd",
+        "pinCode": "dddd"
+      },
+      "status": "pending",
+      "id": 21
+    },
+    {
+      "items": [
+        {
+          "title": "Fog Scent Xpressio Perfume",
+          "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+          "price": 13,
+          "discountPercentage": 8.14,
+          "rating": 4.59,
+          "stock": 61,
+          "brand": "Fog Scent Xpressio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+          "images": [
+            "https://i.dummyjson.com/data/products/13/1.jpg",
+            "https://i.dummyjson.com/data/products/13/2.png",
+            "https://i.dummyjson.com/data/products/13/3.jpg",
+            "https://i.dummyjson.com/data/products/13/4.jpg",
+            "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+          ],
+          "productId": 13,
+          "quantity": 1,
+          "user": 1,
+          "id": 4
+        }
+      ],
+      "totalAmount": 13,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectAddress": null,
+      "status": "pending",
+      "id": 22
+    },
+    {
+      "items": [
+        {
+          "title": "Ladies Multicolored Dress",
+          "description": "This classy shirt for women gives you a gorgeous look on everyday wear and specially for semi-casual wears.",
+          "price": 79,
+          "discountPercentage": 16.88,
+          "rating": 4.03,
+          "stock": 2,
+          "brand": "Ghazi Fabric",
+          "category": "womens-dresses",
+          "thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/44/1.jpg",
+            "https://i.dummyjson.com/data/products/44/2.jpg",
+            "https://i.dummyjson.com/data/products/44/3.jpg",
+            "https://i.dummyjson.com/data/products/44/4.jpg",
+            "https://i.dummyjson.com/data/products/44/thumbnail.jpg"
+          ],
+          "productId": 44,
+          "quantity": 1,
+          "user": 1,
+          "id": 5
+        }
+      ],
+      "totalAmount": 79,
+      "totalItems": 1,
+      "user": {
+        "email": "himanshish456@gmail.com",
+        "password": "jetABC123",
+        "addresses": [
+          {
+            "name": "Himanshi Sharma",
+            "email": "himanshish456@gmail.com",
+            "phone": "8287541443",
+            "street": "Budh Vihar",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110086"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectAddress": {
+        "name": "Himanshi Sharma",
+        "email": "himanshish456@gmail.com",
+        "phone": "8287541443",
+        "street": "Budh Vihar",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110086"
+      },
+      "status": "pending",
+      "id": 23
     }
   ]
 }
