@@ -32,6 +32,13 @@ import AdminProductDetailPage from "./pages/AdminProductDetailPage ";
 import ProductForm from "./features/admin/components/ProductForm";
 import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
+import { positions, Provider } from "react-alert";
+import AlertTemplate from "react-alert-template-basic";
+
+const options = {
+  timeout: 5000,
+  position: positions.BOTTOM_CENTER,
+};
 
 const router = createBrowserRouter([
   {
@@ -153,7 +160,9 @@ function App() {
   }, [dispatch, user?.id]);
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <Provider template={AlertTemplate} {...options}>
+        <RouterProvider router={router} />
+      </Provider>
       {/* Link must be inside the provider */}
     </div>
   );
