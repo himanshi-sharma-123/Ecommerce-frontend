@@ -49,9 +49,7 @@
       "brand": "Samsung",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/3/1.jpg"
-      ],
+      "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
       "deleted": true
     },
     {
@@ -1431,9 +1429,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://i.dummyjson.com/data/products/78/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/78/thumbnail.jpg"
-      ]
+      "images": ["https://i.dummyjson.com/data/products/78/thumbnail.jpg"]
     },
     {
       "id": 79,
@@ -1446,9 +1442,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/79/1.jpg"
-      ]
+      "images": ["https://i.dummyjson.com/data/products/79/1.jpg"]
     },
     {
       "id": 80,
@@ -2606,7 +2600,7 @@
         "id": 1
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "xyz",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -2668,7 +2662,7 @@
         "id": 1
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Himanshi Sharma",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -2730,7 +2724,7 @@
         "id": 1
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "xyz",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -2805,7 +2799,7 @@
         "id": 3
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "HS",
         "email": "h@gmail.com",
         "phone": "+918287541443",
@@ -2880,7 +2874,7 @@
         "id": 3
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "HS",
         "email": "h@gmail.com",
         "phone": "+918287541443",
@@ -2955,7 +2949,7 @@
         "id": 3
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "HS",
         "email": "h@gmail.com",
         "phone": "+918287541443",
@@ -3030,7 +3024,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3105,7 +3099,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3180,7 +3174,7 @@
         "id": 4
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3243,7 +3237,7 @@
         "id": 1
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Himanshi Sharma",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -3306,7 +3300,7 @@
         "id": 1
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Himanshi Sharma",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -3361,7 +3355,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3444,7 +3438,7 @@
         "id": 1
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "xyz",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -3498,7 +3492,7 @@
         "id": 4
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3522,9 +3516,7 @@
           "brand": "Fashion Jewellery",
           "category": "womens-jewellery",
           "thumbnail": "https://i.dummyjson.com/data/products/79/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/79/1.jpg"
-          ],
+          "images": ["https://i.dummyjson.com/data/products/79/1.jpg"],
           "quantity": 1,
           "user": 1,
           "id": 4
@@ -3558,7 +3550,7 @@
         "id": 1
       },
       "paymentMethod": "cash",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "xyz",
         "email": "hello@gmail.com",
         "phone": "8287541443",
@@ -3611,7 +3603,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Mom",
         "email": "mom@gmail.com",
         "phone": "33333",
@@ -3656,7 +3648,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": null,
+      "selectedAddress": null,
       "status": "pending",
       "id": 17
     },
@@ -3703,7 +3695,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": null,
+      "selectedAddress": null,
       "status": "pending",
       "id": 18
     },
@@ -3766,7 +3758,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "sdd",
         "email": "fdf",
         "phone": "ffdff",
@@ -3847,7 +3839,7 @@
         "id": 4
       },
       "paymentMethod": "cash",
-      "selectAddress": null,
+      "selectedAddress": null,
       "status": "pending",
       "id": 20
     },
@@ -3973,7 +3965,7 @@
         "id": 4
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "sdd",
         "email": "fdf",
         "phone": "ffdff",
@@ -4019,7 +4011,7 @@
         "id": 1
       },
       "paymentMethod": "cash",
-      "selectAddress": null,
+      "selectedAddress": null,
       "status": "pending",
       "id": 22
     },
@@ -4067,7 +4059,7 @@
         "id": 1
       },
       "paymentMethod": "card",
-      "selectAddress": {
+      "selectedAddress": {
         "name": "Himanshi Sharma",
         "email": "himanshish456@gmail.com",
         "phone": "8287541443",

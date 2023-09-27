@@ -147,13 +147,13 @@ function AdminOrders() {
                     <td className="py-3 px-6 text-center">
                       <div className="">
                         <div>
-                          {/* <strong>{order.selectAddress.name}</strong>, */}
+                          {/* <strong>{order.selectedAddress.name}</strong>, */}
                         </div>
-                        {/* <div>{order.selectAddress.street},</div>
-                        <div>{order.selectAddress.city}, </div>
-                        <div>{order.selectAddress.state}, </div>
-                        <div>{order.selectAddress.pinCode}, </div>
-                        <div>{order.selectAddress.phone}, </div> */}
+                        {/* <div>{order.selectedAddress.street},</div>
+                        <div>{order.selectedAddress.city}, </div>
+                        <div>{order.selectedAddress.state}, </div>
+                        <div>{order.selectedAddress.pinCode}, </div>
+                        <div>{order.selectedAddress.phone}, </div> */}
                       </div>
                     </td>
                     <td className="py-3 px-6 text-center">
@@ -358,13 +358,13 @@ export default AdminOrders;
 //                     <td className="py-3 px-6 text-center">
 //                       <div className="">
 //                         <div>
-//                           {/* <strong>{order.selectAddress.name}</strong>, */}
+//                           {/* <strong>{order.selectedAddress.name}</strong>, */}
 //                         </div>
-//                         {/* <div>{order.selectAddress.street},</div>
-//                         <div>{order.selectAddress.city}, </div>
-//                         <div>{order.selectAddress.state}, </div>
-//                         <div>{order.selectAddress.pinCode}, </div>
-//                         <div>{order.selectAddress.phone}, </div> */}
+//                         {/* <div>{order.selectedAddress.street},</div>
+//                         <div>{order.selectedAddress.city}, </div>
+//                         <div>{order.selectedAddress.state}, </div>
+//                         <div>{order.selectedAddress.pinCode}, </div>
+//                         <div>{order.selectedAddress.phone}, </div> */}
 //                       </div>
 //                     </td>
 //                     <td className="py-3 px-6 text-center">

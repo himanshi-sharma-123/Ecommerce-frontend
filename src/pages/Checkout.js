@@ -66,7 +66,7 @@ const Checkout = () => {
   );
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
 
-  const [selectAddress, setSelectAddress] = useState(null);
+  const [selectedAddress, setselectedAddress] = useState(null);
   const [paymentMethod, setPaymentMethod] = useState("cash");
 
   const handleQuantity = (e, item) => {
@@ -79,7 +79,7 @@ const Checkout = () => {
 
   const handleAddress = (e) => {
     console.log(e.target.value);
-    setSelectAddress(user.addresses[e.target.value]);
+    setselectedAddress(user.addresses[e.target.value]);
   };
 
   const handlePayment = (e) => {
@@ -94,7 +94,7 @@ const Checkout = () => {
       totalItems,
       user,
       paymentMethod,
-      selectAddress,
+      selectedAddress,
       status: "pending",
     };
     dispatch(createOrderAsync(order));
