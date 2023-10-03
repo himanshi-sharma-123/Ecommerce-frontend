@@ -62,7 +62,7 @@ const Checkout = () => {
 
   const totalAmount = items.reduce(
     // (amount, item) => item.price * item.quantity + amount,
-    (amount, item) => discountedPrice(item.product) * item.quantity + amount,
+    (amount, item) => discountedPrice(item) * item.quantity + amount,
 
     0
   );
@@ -346,78 +346,6 @@ const Checkout = () => {
                   )}
 
                   <div className="mt-10 space-y-10">
-                    {/* <fieldset>
-                    <legend className="text-sm font-semibold leading-6 text-gray-900">
-                      By Email
-                    </legend>
-                    <div className="mt-6 space-y-6">
-                      <div className="relative flex gap-x-3">
-                        <div className="flex h-6 items-center">
-                          <input
-                            id="comments"
-                            name="comments"
-                            type="checkbox"
-                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                          />
-                        </div>
-                        <div className="text-sm leading-6">
-                          <label
-                            htmlFor="comments"
-                            className="font-medium text-gray-900"
-                          >
-                            Comments
-                          </label>
-                          <p className="text-gray-500">
-                            Get notified when someones posts a comment on a
-                            posting.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="relative flex gap-x-3">
-                        <div className="flex h-6 items-center">
-                          <input
-                            id="candidates"
-                            name="candidates"
-                            type="checkbox"
-                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                          />
-                        </div>
-                        <div className="text-sm leading-6">
-                          <label
-                            htmlFor="candidates"
-                            className="font-medium text-gray-900"
-                          >
-                            Candidates
-                          </label>
-                          <p className="text-gray-500">
-                            Get notified when a candidate applies for a job.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="relative flex gap-x-3">
-                        <div className="flex h-6 items-center">
-                          <input
-                            id="offers"
-                            name="offers"
-                            type="checkbox"
-                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                          />
-                        </div>
-                        <div className="text-sm leading-6">
-                          <label
-                            htmlFor="offers"
-                            className="font-medium text-gray-900"
-                          >
-                            Offers
-                          </label>
-                          <p className="text-gray-500">
-                            Get notified when a candidate accepts or rejects an
-                            offer.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </fieldset> */}
                     <fieldset>
                       <legend className="text-sm font-semibold leading-6 text-gray-900">
                         Payment Methods
@@ -495,8 +423,8 @@ const Checkout = () => {
                       <li key={item.id} className="flex py-6">
                         <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                           <img
-                            src={item.product.thumbnail}
-                            alt={item.product.title}
+                            src={item.thumbnail}
+                            alt={item.title}
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
@@ -505,16 +433,12 @@ const Checkout = () => {
                           <div>
                             <div className="flex justify-between text-base font-medium text-gray-900">
                               <h3>
-                                <a href={item.product.id}>
-                                  {item.product.title}
-                                </a>
+                                <a href={item.id}>{item.title}</a>
                               </h3>
-                              <p className="ml-4">
-                                ${discountedPrice(item.product)}
-                              </p>
+                              <p className="ml-4">${discountedPrice(item)}</p>
                             </div>
                             <p className="mt-1 text-sm text-gray-500">
-                              {item.product.brand}
+                              {item.brand}
                             </p>
                           </div>
                           <div className="flex flex-1 items-end justify-between text-sm">

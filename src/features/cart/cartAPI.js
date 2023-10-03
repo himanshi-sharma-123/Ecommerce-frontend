@@ -56,4 +56,3 @@ export function resetCart(userId) {
     resolve({ status: "success" });
   });
 }
-

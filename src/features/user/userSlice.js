@@ -6,7 +6,7 @@ import {
 } from "./userAPI";
 
 const initialState = {
-  // userOrders: [],
+  userOrders: [],
   status: "idle",
   userInfo: null, //this info will be used in case of detailed user info, while auth will only be used for loggedInUser id etc checks.
 };

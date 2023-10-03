@@ -124,8 +124,8 @@ export default function ProductDetail() {
 
   const handleCart = (e) => {
     e.preventDefault();
-    // if (items.findIndex((item) => item.productId === product.id) < 0) {
-    if (items.findIndex((item) => item.product.id === product.id) < 0) {
+    // if (items.findIndex((item) => itemId === product.id) < 0) {
+    if (items.findIndex((item) => item.id === product.id) < 0) {
       const newItem = {
         ...product,
         product: product.id,
