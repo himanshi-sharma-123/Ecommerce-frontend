@@ -7,7 +7,7 @@
       "price": 200,
       "discountPercentage": 12.96,
       "rating": 0,
-      "stock": 4,
+      "stock": 9,
       "brand": "Apple",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
@@ -2403,10 +2403,111 @@
           "city": "bbb",
           "state": "ppp",
           "pinCode": "444"
+        },
+        {
+          "name": "Himanshi Sharma",
+          "email": "himanshi@gmail.com",
+          "phone": "22222222",
+          "street": "abc",
+          "city": "Bangalore",
+          "state": "Banglaore",
+          "pinCode": "556677"
+        },
+        {
+          "name": "Himanshi",
+          "email": "himanshi@gmail.com",
+          "phone": "22222222",
+          "street": "abc",
+          "city": "Bangalore",
+          "state": "Bangalore",
+          "pinCode": "55"
         }
       ],
       "role": "user",
-      "id": 1
+      "id": 1,
+      "orders": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "title": "iPhone X",
+              "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+              "price": 2000,
+              "discountPercentage": 17.94,
+              "rating": 0,
+              "stock": 3,
+              "brand": "Apple",
+              "category": "smartphones",
+              "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+              "images": [
+                "https://i.dummyjson.com/data/products/2/1.jpg",
+                "https://i.dummyjson.com/data/products/2/2.jpg",
+                "https://i.dummyjson.com/data/products/2/3.jpg",
+                "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+              ],
+              "deleted": true,
+              "product": 2,
+              "quantity": 1,
+              "user": 1
+            }
+          ],
+          "totalAmount": 1641,
+          "totalItems": 1,
+          "user": 1,
+          "paymentMethod": "card",
+          "selectedAddress": {
+            "name": "Himanshi",
+            "email": "himanshi@gmail.com",
+            "phone": "12345",
+            "street": "yyy",
+            "city": "bbb",
+            "state": "ppp",
+            "pinCode": "444"
+          },
+          "status": "pending",
+          "id": 1
+        },
+        {
+          "items": [
+            {
+              "id": 11,
+              "title": "perfume Oil",
+              "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+              "price": 13,
+              "discountPercentage": 8.4,
+              "rating": 4.26,
+              "stock": 65,
+              "brand": "Impression of Acqua Di Gio",
+              "category": "fragrances",
+              "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+              "images": [
+                "https://i.dummyjson.com/data/products/11/1.jpg",
+                "https://i.dummyjson.com/data/products/11/2.jpg",
+                "https://i.dummyjson.com/data/products/11/3.jpg",
+                "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+              ],
+              "product": 11,
+              "quantity": 3,
+              "user": 1
+            }
+          ],
+          "totalAmount": 36,
+          "totalItems": 3,
+          "user": 1,
+          "paymentMethod": "cash",
+          "selectedAddress": {
+            "name": "Himanshi Sharma",
+            "email": "himanshi@gmail.com",
+            "phone": "22222222",
+            "street": "abc",
+            "city": "Bangalore",
+            "state": "Banglaore",
+            "pinCode": "556677"
+          },
+          "status": "cancelled",
+          "id": 4
+        }
+      ]
     },
     {
       "email": "admin@gmail.com",
@@ -2427,14 +2528,103 @@
           "city": "r",
           "state": "u",
           "pinCode": "7"
+        },
+        {
+          "name": "Test",
+          "email": "test@gmail.com",
+          "phone": "12345",
+          "street": "fff",
+          "city": "ggg",
+          "state": "eee",
+          "pinCode": "6666"
         }
       ],
       "role": "user",
       "id": 3,
-      "orders": []
+      "orders": [
+        {
+          "items": [
+            {
+              "id": 50,
+              "title": "Women Shoes",
+              "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+              "price": 36,
+              "discountPercentage": 16.87,
+              "rating": 4.33,
+              "stock": 46,
+              "brand": "Arrivals Genuine",
+              "category": "womens-shoes",
+              "thumbnail": "https://i.dummyjson.com/data/products/50/thumbnail.jpg",
+              "images": [
+                "https://i.dummyjson.com/data/products/50/1.jpeg",
+                "https://i.dummyjson.com/data/products/50/2.jpg",
+                "https://i.dummyjson.com/data/products/50/3.jpg"
+              ],
+              "product": 50,
+              "quantity": 1,
+              "user": 3
+            }
+          ],
+          "totalAmount": 30,
+          "totalItems": 1,
+          "user": 3,
+          "paymentMethod": "cash",
+          "selectedAddress": {
+            "name": "xyz",
+            "email": "test@gmail.com",
+            "phone": "22222222",
+            "street": "main 11",
+            "city": "r",
+            "state": "u",
+            "pinCode": "7"
+          },
+          "status": "pending",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "email": "mannu@gmail.com",
+      "password": "Mannu@123",
+      "addresses": [
+        {
+          "name": "Mannu Sharma",
+          "email": "mannu@gmail.com",
+          "phone": "1234567",
+          "street": "Budh Vihar",
+          "city": "Delhi",
+          "state": "Delhi",
+          "pinCode": "55"
+        }
+      ],
+      "role": "user",
+      "id": 4
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": 80,
+      "title": "Chain Pin Tassel Earrings",
+      "description": "Pair Of Ear Cuff Butterfly Long Chain Pin Tassel Earrings - Silver ( Long Life Quality Product)",
+      "price": 45,
+      "discountPercentage": 17.75,
+      "rating": 4.59,
+      "stock": 9,
+      "brand": "Cuff Butterfly",
+      "category": "womens-jewellery",
+      "thumbnail": "https://i.dummyjson.com/data/products/80/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/80/1.jpg",
+        "https://i.dummyjson.com/data/products/80/2.jpg",
+        "https://i.dummyjson.com/data/products/80/3.png",
+        "https://i.dummyjson.com/data/products/80/4.jpg",
+        "https://i.dummyjson.com/data/products/80/thumbnail.jpg"
+      ],
+      "product": 80,
+      "quantity": 1,
+      "user": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -2515,6 +2705,167 @@
       },
       "status": "pending",
       "id": 2
+    },
+    {
+      "items": [
+        {
+          "id": 66,
+          "title": "Steel Analog Couple Watches",
+          "description": "Elegant design, Stylish ,Unique & Trendy,Comfortable wear",
+          "price": 35,
+          "discountPercentage": 3.23,
+          "rating": 4.79,
+          "stock": 24,
+          "brand": "Eastern Watches",
+          "category": "womens-watches",
+          "thumbnail": "https://i.dummyjson.com/data/products/66/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/66/1.jpg",
+            "https://i.dummyjson.com/data/products/66/2.jpg",
+            "https://i.dummyjson.com/data/products/66/3.jpg",
+            "https://i.dummyjson.com/data/products/66/4.JPG",
+            "https://i.dummyjson.com/data/products/66/thumbnail.jpg"
+          ],
+          "product": 66,
+          "quantity": 2,
+          "user": 4
+        }
+      ],
+      "totalAmount": 68,
+      "totalItems": 2,
+      "user": 4,
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Mannu Sharma",
+        "email": "mannu@gmail.com",
+        "phone": "1234567",
+        "street": "Budh Vihar",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "55"
+      },
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": 11,
+          "title": "perfume Oil",
+          "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+          "price": 13,
+          "discountPercentage": 8.4,
+          "rating": 4.26,
+          "stock": 65,
+          "brand": "Impression of Acqua Di Gio",
+          "category": "fragrances",
+          "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/11/1.jpg",
+            "https://i.dummyjson.com/data/products/11/2.jpg",
+            "https://i.dummyjson.com/data/products/11/3.jpg",
+            "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+          ],
+          "product": 11,
+          "quantity": 3,
+          "user": 1
+        }
+      ],
+      "totalAmount": 36,
+      "totalItems": 3,
+      "user": 1,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Himanshi Sharma",
+        "email": "himanshi@gmail.com",
+        "phone": "22222222",
+        "street": "abc",
+        "city": "Bangalore",
+        "state": "Banglaore",
+        "pinCode": "556677"
+      },
+      "status": "cancelled",
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "id": 25,
+          "title": "Gulab Powder 50 Gram",
+          "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+          "price": 70,
+          "discountPercentage": 13.58,
+          "rating": 4.87,
+          "stock": 47,
+          "brand": "Dry Rose",
+          "category": "groceries",
+          "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/25/1.png",
+            "https://i.dummyjson.com/data/products/25/2.jpg",
+            "https://i.dummyjson.com/data/products/25/3.png",
+            "https://i.dummyjson.com/data/products/25/4.jpg",
+            "https://i.dummyjson.com/data/products/25/thumbnail.jpg"
+          ],
+          "product": 25,
+          "quantity": 1,
+          "user": 1
+        }
+      ],
+      "totalAmount": 60,
+      "totalItems": 1,
+      "user": 1,
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Himanshi",
+        "email": "himanshi@gmail.com",
+        "phone": "22222222",
+        "street": "abc",
+        "city": "Bangalore",
+        "state": "Bangalore",
+        "pinCode": "55"
+      },
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "id": 76,
+          "title": "Silver Ring Set Women",
+          "description": "Jewelry Type:RingsCertificate Type:NonePlating:Silver PlatedShapeattern:noneStyle:CLASSICReligious",
+          "price": 70,
+          "discountPercentage": 13.57,
+          "rating": 4.61,
+          "stock": 51,
+          "brand": "Darojay",
+          "category": "womens-jewellery",
+          "thumbnail": "https://i.dummyjson.com/data/products/76/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/76/1.jpg",
+            "https://i.dummyjson.com/data/products/76/2.jpg",
+            "https://i.dummyjson.com/data/products/76/thumbnail.jpg"
+          ],
+          "product": 76,
+          "quantity": 3,
+          "user": 3
+        }
+      ],
+      "totalAmount": 183,
+      "totalItems": 3,
+      "user": 3,
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "phone": "12345",
+        "street": "fff",
+        "city": "ggg",
+        "state": "eee",
+        "pinCode": "6666"
+      },
+      "status": "pending",
+      "id": 6
     }
   ]
 }
