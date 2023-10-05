@@ -45,7 +45,7 @@ export function updateProduct(update) {
   });
 }
 
-export function fetchProductsByFilters(filter, sort, pagination) {
+export function fetchProductsByFilters(filter, sort, pagination, admin) {
   // filter = {"category":["smartphone","laptops"]}
   //sort = {_sort:"price",_order:"desc"}
 
@@ -67,9 +67,9 @@ export function fetchProductsByFilters(filter, sort, pagination) {
     queryString += `${key}=${pagination[key]}&`;
   }
 
-  // if (admin) {
-  //   queryString += `admin=true`;
-  // }
+  if (admin) {
+    queryString += `admin=true`;
+  }
 
   // let queryString = "";
   // for (let key in filter) {
