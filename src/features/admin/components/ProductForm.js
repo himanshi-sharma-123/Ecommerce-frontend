@@ -46,6 +46,7 @@ function ProductForm() {
       setValue("rating", selectedProduct.rating);
       setValue("discountPercentage", selectedProduct.discountPercentage);
       setValue("thumbnail", selectedProduct.thumbnail);
+      setValue("stock", selectedProduct.stock);
       setValue("image1", selectedProduct.images[0]);
       setValue("image2", selectedProduct.images[1]);
       setValue("image3", selectedProduct.images[2]);
