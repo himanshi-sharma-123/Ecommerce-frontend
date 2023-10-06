@@ -202,6 +202,7 @@ function classNames(...classes) {
 export default function AdminProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
+  console.log(products);
   const brands = useSelector(selectBrands);
   const categories = useSelector(selectCategories);
 
@@ -737,6 +738,11 @@ function ProductGrid({ products }) {
                   {product.deleted && (
                     <div className="text-sm text-red-400">
                       <p>Product Deleted</p>
+                    </div>
+                  )}
+                  {product.stock <= 0 && (
+                    <div>
+                      <p className="text-sm text-red-400">out of stock</p>
                     </div>
                   )}
                 </div>
