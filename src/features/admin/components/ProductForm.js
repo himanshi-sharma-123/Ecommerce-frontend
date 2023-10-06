@@ -13,7 +13,7 @@ import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Modal from "../../common/Modal";
-
+import { useAlert } from "react-alert";
 function ProductForm() {
   const {
     register,
@@ -29,6 +29,7 @@ function ProductForm() {
   const dispatch = useDispatch();
   const params = useParams();
   const selectedProduct = useSelector(selectProductById);
+  const alert = useAlert();
 
   useEffect(() => {
     if (params.id) {
@@ -89,11 +90,14 @@ function ProductForm() {
             product.rating = selectedProduct.rating || 0;
 
             dispatch(updateProductAsync(product));
+            alert.success("Product Updated");
             reset();
           } else {
             dispatch(createProductAsync(product));
+            alert.success("Product Updated");
+            // TO DO : these alert should check if API failed
+
             reset();
-            // TO DO : on product successfully added clear fields and show a message
           }
         })}
       >
