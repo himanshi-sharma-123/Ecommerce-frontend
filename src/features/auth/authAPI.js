@@ -12,7 +12,7 @@ export function createUser(userData) {
   });
 }
 
-export function checkUser(loginInfo) {
+export function loginUser(loginInfo) {
   return new Promise(async (resolve, reject) => {
     try {
       const response = await fetch("http://localhost:8080/auth/login", {
@@ -48,6 +48,23 @@ export function checkUser(loginInfo) {
     //     }
     //     // TODO: on server it will only return some info of user (not password)
     //     resolve({ data });
+  });
+}
+
+export function checkAuth() {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await fetch("http://localhost:8080/auth/check");
+      if (response.ok) {
+        const data = await response.json();
+        resolve({ data });
+      } else {
+        const err = await response.text();
+        reject(err);
+      }
+    } catch (err) {
+      reject(err);
+    }
   });
 }
 

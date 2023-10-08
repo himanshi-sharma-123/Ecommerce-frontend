@@ -4,6 +4,7 @@ import {
   deleteItemFromCartAsync,
   increment,
   incrementAsync,
+  selectCartLoaded,
   selectItems,
 } from "./cartSlice";
 // import { increment, incrementAsync, selectCount } from "./counterSlice";
@@ -20,6 +21,7 @@ export default function Cart() {
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true);
   const items = useSelector(selectItems);
+  const cartLoaded = useSelector(selectCartLoaded);
   const [openModal, setOpenModal] = useState(null);
 
   const totalAmount = items.reduce(
@@ -41,7 +43,9 @@ export default function Cart() {
 
   return (
     <>
-      {!items.length && <Navigate to="/" replace={true}></Navigate>}
+      {!items.length && cartLoaded && (
+        <Navigate to="/" replace={true}></Navigate>
+      )}
       <div>
         <div className="mx-auto mt-24 max-w-7xl bg-white px-4 sm:px-6 lg:px-8">
           <div className="border-t border-gray-200 px-4 py-6 sm:px-6">

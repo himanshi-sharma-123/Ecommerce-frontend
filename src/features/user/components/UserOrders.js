@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { checkUserAsync, selectLoggedInUser } from "../../auth/authSlice";
+import { loginUserAsync, selectLoggedInUser } from "../../auth/authSlice";
 import {
   fetchLoggedInUserOrdersAsync,
   selectUserInfo,
