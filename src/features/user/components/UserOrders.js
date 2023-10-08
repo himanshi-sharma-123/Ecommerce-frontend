@@ -4,14 +4,16 @@ import { checkUserAsync, selectLoggedInUser } from "../../auth/authSlice";
 import {
   fetchLoggedInUserOrdersAsync,
   selectUserInfo,
+  selectUserInfoStatus,
   selectUserOrders,
 } from "../userSlice";
 import { discountedPrice } from "../../../app/constants";
+import { Grid } from "react-loader-spinner";
 // import { increment, incrementAsync, selectCount } from "./counterSlice";
 
 export default function UserOrders() {
   const dispatch = useDispatch();
-
+  const status = useSelector(selectUserInfoStatus);
   // const user = useSelector(selectUserInfo);
   const userInfo = useSelector(selectUserInfo);
 
@@ -22,8 +24,8 @@ export default function UserOrders() {
   useEffect(() => {
     console.log("User ID:", userInfo.id);
 
-    dispatch(fetchLoggedInUserOrdersAsync(userInfo?.id));
-  }, [dispatch, userInfo?.id]);
+    dispatch(fetchLoggedInUserOrdersAsync());
+  }, [dispatch]);
 
   //dispatch(fetchLoggedInUserOrdersAsync(user.id));
   // }, []);
@@ -136,6 +138,19 @@ export default function UserOrders() {
       ) : (
         <p>no orders</p>
       )}
+      {status === "loading" ? (
+        <Grid
+          height="80"
+          width="80"
+          color="#rgb(79,70,229)"
+          ariaLabel="grid-loading"
+          radius="12.5"
+          justifyContent="center"
+          wrapperStyle={{}}
+          wrapperClass=""
+          visible={true}
+        />
+      ) : null}
     </div>
   );
 }

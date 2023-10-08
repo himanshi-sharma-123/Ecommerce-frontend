@@ -13,11 +13,11 @@ function OrderSuccessPage() {
 
   useEffect(() => {
     //reset cart
-    dispatch(resetCartAsync(user.id));
+    dispatch(resetCartAsync());
 
     //reset current order
     dispatch(resetOrder());
-  }, [dispatch, user]);
+  }, [dispatch]);
   return (
     <>
       {!params?.id && <Navigate to="/" replace={true}></Navigate>}

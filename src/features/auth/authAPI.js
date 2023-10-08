@@ -24,7 +24,7 @@ export function checkUser(loginInfo) {
         const data = await response.json();
         resolve({ data });
       } else {
-        const err = await response.json();
+        const err = await response.text();
         reject(err);
       }
     } catch (err) {
