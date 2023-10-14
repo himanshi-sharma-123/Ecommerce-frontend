@@ -109,7 +109,6 @@ export const cartSlice = createSlice({
   },
 });
 
-export const { increment } = cartSlice.actions;
 export const selectItems = (state) => state.cart.items;
 export const selectCartLoaded = (state) => state.cart.cartLoaded;
 
