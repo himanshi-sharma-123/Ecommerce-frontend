@@ -66,7 +66,7 @@ const Checkout = () => {
 
     0
   );
-  const totalItems = items.reduce((total, item) => item.quantity + total, 0);
+  const totalItems = items.reduce((total, item) => (total += item.quantity), 0);
 
   const [selectedAddress, setselectedAddress] = useState(null);
   const [paymentMethod, setPaymentMethod] = useState("cash");
