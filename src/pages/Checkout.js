@@ -494,7 +494,7 @@ const Checkout = () => {
                 </div>
                 <div className="flex justify-between text-base font-medium text-gray-900">
                   <p>Total Items in Cart</p>
-                  <p>{totalItems}items</p>
+                  <p>{totalItems} items</p>
                 </div>
 
                 <p className="mt-0.5 text-sm text-gray-500">
