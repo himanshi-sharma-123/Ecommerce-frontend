@@ -85,14 +85,11 @@ export const checkAuthAsync = createAsyncThunk(
 //   }
 // );
 
-export const signOutAsync = createAsyncThunk(
-  "user/signOut",
-  async (loginInfo) => {
-    const response = await signOut(loginInfo);
-    // The value we return becomes the `fulfilled` action payload
-    return response.data;
-  }
-);
+export const signOutAsync = createAsyncThunk("user/signOut", async () => {
+  const response = await signOut();
+  // The value we return becomes the `fulfilled` action payload
+  return response.data;
+});
 
 export const resetPasswordRequestAsync = createAsyncThunk(
   "user/resetPasswordRequest",

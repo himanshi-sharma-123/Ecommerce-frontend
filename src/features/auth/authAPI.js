@@ -82,9 +82,18 @@ export function checkAuth() {
 // }
 
 export function signOut(userId) {
-  return new Promise(async (resolve) => {
-    // TODO: on server we will remove user session info
-    resolve({ data: "success" });
+  return new Promise(async (resolve, reject) => {
+    try {
+      const response = await fetch("/auth/logout");
+      if (response.ok) {
+        resolve({ data: "success" });
+      } else {
+        const err = await response.text();
+        reject(err);
+      }
+    } catch (err) {
+      reject(err);
+    }
   });
 }
 
