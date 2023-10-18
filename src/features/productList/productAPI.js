@@ -31,14 +31,11 @@ export function createProduct(product) {
 
 export function updateProduct(update) {
   return new Promise(async (resolve) => {
-    const response = await fetch(
-      "/products/" + update.id,
-      {
-        method: "PATCH",
-        body: JSON.stringify(update),
-        headers: { "content-type": "application/json" },
-      }
-    );
+    const response = await fetch("/products/" + update.id, {
+      method: "PATCH",
+      body: JSON.stringify(update),
+      headers: { "content-type": "application/json" },
+    });
     const data = await response.json();
     // TODO: on server it will only return some info of user (not password)
     resolve({ data });
@@ -49,13 +46,11 @@ export function fetchProductsByFilters(filter, sort, pagination, admin) {
   // filter = {"category":["smartphone","laptops"]}
   //sort = {_sort:"price",_order:"desc"}
 
-  // TODO : on server we will support multi values
   let queryString = "";
   for (let key in filter) {
     const categoryValues = filter[key];
     if (categoryValues.length > 0) {
-      const lastCategoryValue = categoryValues[categoryValues.length - 1];
-      queryString += `${key}=${lastCategoryValue}&`;
+      queryString += `${key}=${categoryValues}&`;
     }
   }
 
@@ -78,9 +73,7 @@ export function fetchProductsByFilters(filter, sort, pagination, admin) {
 
   return new Promise(async (resolve) => {
     //TODO: we will not hard-code server URL here
-    const response = await fetch(
-      "/products?" + queryString
-    );
+    const response = await fetch("/products?" + queryString);
     const data = await response.json();
     const totalItems = await response.headers.get("X-Total-Count"); // PROVIDED BY JSON-SERVER
     resolve({ data: { products: data, totalItems: +totalItems } });
