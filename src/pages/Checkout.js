@@ -20,7 +20,6 @@ import {
 } from "../features/order/orderSlice";
 import { selectUserInfo } from "../features/user/userSlice";
 import { updateUserAsync } from "../features/user/userSlice";
-import { discountedPrice } from "../app/constants";
 
 const products = [
   {
@@ -62,7 +61,7 @@ const Checkout = () => {
 
   const totalAmount = items.reduce(
     // (amount, item) => item.price * item.quantity + amount,
-    (amount, item) => discountedPrice(item.product) * item.quantity + amount,
+    (amount, item) => item.product.discountPrice * item.quantity + amount,
 
     0
   );
@@ -442,7 +441,7 @@ const Checkout = () => {
                                 </a>
                               </h3>
                               <p className="ml-4">
-                                ${discountedPrice(item.product)}
+                                ${item.product.discountPrice}
                               </p>
                             </div>
                             <p className="mt-1 text-sm text-gray-500">

@@ -14,7 +14,6 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, Navigate } from "react-router-dom";
 import { updateItemAsync } from "./cartSlice";
 import Modal from "../common/Modal";
-import { discountedPrice } from "../../app/constants";
 
 export default function Cart() {
   // const count = useSelector(selectCount);
@@ -26,7 +25,7 @@ export default function Cart() {
 
   const totalAmount = items.reduce(
     // (amount, item) => item.price * item.quantity + amount,?
-    (amount, item) => discountedPrice(item.product) * item.quantity + amount,
+    (amount, item) => item.product.discountPrice * item.quantity + amount,
     0
   );
   const totalItems = items.reduce((total, item) => (total += item.quantity), 0);
@@ -70,9 +69,7 @@ export default function Cart() {
                           <h3>
                             <a href={item.product.id}>{item.product.title}</a>
                           </h3>
-                          <p className="ml-4">
-                            ${discountedPrice(item.product)}
-                          </p>
+                          <p className="ml-4">${item.product.discountPrice}</p>
                         </div>
                         <p className="mt-1 text-sm text-gray-500">
                           {item.product.brand}

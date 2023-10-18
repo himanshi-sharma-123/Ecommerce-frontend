@@ -178,7 +178,7 @@ function AdminOrders() {
                           </div>
                           <span>
                             {item.product.title} - #{item.quantity} - $
-                            {discountedPrice(item.product)}
+                            {item.product.discountPrice}
                           </span>
                         </div>
                       ))}
